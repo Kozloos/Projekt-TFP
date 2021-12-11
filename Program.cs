@@ -72,7 +72,7 @@ namespace morseovka_finalni
                     case "2":
 
                         Console.Clear();
-                        //Načtení abecední zprávy
+                        //Načtení zprávy ze znaků abecedy
                         Console.WriteLine("Zadej abecední kód: ");
                         s = Console.ReadLine();
                         Console.Clear();
@@ -90,7 +90,7 @@ namespace morseovka_finalni
                             pismena[i] = pismeno;
                         }
 
-                        //Převedení abecedy do morseových znaků
+                        //Převedení znaků abecedy do morseových znaků
                         foreach (string abecedniZnak in pismena)
                         {
                             string morseuvZnak = " ";
@@ -103,6 +103,7 @@ namespace morseovka_finalni
                             zprava2 += morseuvZnak + " ";
                         }
 
+                        //Výpis překódované zprávy
                         Console.WriteLine($"Abecední zpráva: {zprava2}");
                         Console.ReadKey();
 

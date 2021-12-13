@@ -1,0 +1,7 @@
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\obj\Debug\morseovka_zkouska.csprojAssemblyReference.cache
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\obj\Debug\morseovka_zkouska.csproj.CoreCompileInputs.cache
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\bin\Debug\morseovka_zkouska.exe.config
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\bin\Debug\morseovka_zkouska.exe
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\bin\Debug\morseovka_zkouska.pdb
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\obj\Debug\morseovka_zkouska.exe
+C:\Users\frydl\source\repos\morseovka_zkouska\morseovka_zkouska\obj\Debug\morseovka_zkouska.pdb

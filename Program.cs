@@ -8,16 +8,12 @@ namespace morseovka_finalni
 {
 class Morseovka
     {
-        public string VraceniMorseovyZpravy()
+        public string VraceniMorseovyZpravy(string l)
         {
-            Console.Clear();
-            //Načtení morseovy zprávy
-            Console.WriteLine("Zadej morseův kód: ");
-            string s = Console.ReadLine();
+            string s = l;
 
-            Console.Clear();
             Console.WriteLine($"Původní zpráva: {s}");
-            
+
             return s;
         }
 
@@ -48,10 +44,7 @@ class Morseovka
         public string VraceniAbecedniZpravy()
         {
 
-            //Načtení abecední zprávy
-            Console.WriteLine("Zadej abecední kód: ");
-            string s = Console.ReadLine();
-            Console.Clear();
+            string s = r;
 
             //Vypsání původní zprávy
             Console.WriteLine($"Původní zpráva: {s}");
@@ -126,8 +119,11 @@ class Morseovka
                     case "1":
                         Console.Clear();
                         Morseovka morseovka = new Morseovka();
-                        
-                        string s = morseovka.VraceniMorseovyZpravy();
+
+                        //Načtení morseovy zprávy
+                        Console.WriteLine("Zadej morseův kód: ");
+                        string l = Console.ReadLine();
+                        Console.Clear();
                         string[] znaky = morseovka.RozbitiMorseovyZpravy(s);
                         string zprava = morseovka.VraceniPrekodovaneZpravy(abecedniZnaky, morseovyZnaky, znaky);
 
@@ -141,7 +137,11 @@ class Morseovka
                         Console.Clear();
                         Morseovka morseovka1 = new Morseovka();
 
-                        string z = morseovka1.VraceniAbecedniZpravy();
+                        Console.WriteLine("Zadej abecední kód: ");
+                        string s2 = Console.ReadLine();
+                        Console.Clear();
+
+                        string z = morseovka1.VraceniAbecedniZpravy(s2);
                         string[] pismena = morseovka1.ZiskSamostatnychPismen(z);
                         string zprava2 = morseovka1.PrevedeniZAbecedyNaMorseovku(abecedniZnaky,morseovyZnaky,pismena);
 

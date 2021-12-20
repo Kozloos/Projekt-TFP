@@ -216,6 +216,7 @@ namespace morseovka_zkouska
             }
             while (volba != "0");
             Console.ReadKey();
+            Console.WriteLine(*a *);
         }
     }
 }

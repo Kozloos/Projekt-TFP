@@ -14,6 +14,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void VraceniMorseovyZpravy_ZadanyRetezecZKonzole_StejnyRetezec()
         {
+            //Test, který porovnává řetězec zadaný z klávesnice s předpokládaným výsledkem
+
             var morseovka = new Morseovka();
             string l = "...";
 
@@ -25,6 +27,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void RozbitiMorseovyZpravy()
         {
+            //Test, který porovnává rozbité pole s předpokládaným polem
+
             string s = "... --- ...";
             string[] expected = new string[]{ "...", "---", "..." };
 
@@ -36,6 +40,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void VraceniPrekodovaneZpravy_PoleSPrvkyMorseovymiZnaky_RetezecAbecedniZnaky()
         {
+            //Test, který porovnává výslednou zprávu s předpokládanou výslednou zprávou
+
             string[] abecedniZnaky = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
                                       "u","v","w","x","y","z"};
 
@@ -54,6 +60,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void VraceniAbecedniZpravy_ZadanyText_VracenyRetezec()
         {
+            //Test, který porovnává řetězec zadaný z klávesnice s předpokládaným výsledkem
+
             Morseovka morseovka3 = new Morseovka();
             string expected = "sos";
             string result = morseovka3.VraceniAbecedniZpravy(expected);
@@ -63,6 +71,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void ZiskSamostatnychPismen_ZadanyRetezec_JednotlivaPismena()
         {
+            //Test, který porovnává rozbité pole písmen s předpokládaným polem
+
             Morseovka morseovka4 = new Morseovka();
             string z = "ahoj";
             string[] expected = new string[] { "a", "h", "o", "j" };
@@ -73,6 +83,8 @@ namespace Morseovka.UnitTest
         [TestMethod]
         public void PrevedeniZAbecedyNaMorseovku_PolePismen_MorseovyZnaky()
         {
+            //Test, který porovnává výslednou zprávu s předpokládanou výslednou zprávou
+
             string[] abecedniZnaky = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
                                       "u","v","w","x","y","z"};
 

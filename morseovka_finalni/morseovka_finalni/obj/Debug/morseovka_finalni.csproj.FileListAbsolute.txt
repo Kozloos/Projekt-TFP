@@ -1,7 +1,0 @@
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\bin\Debug\morseovka_finalni.exe.config
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\bin\Debug\morseovka_finalni.exe
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\bin\Debug\morseovka_finalni.pdb
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\obj\Debug\morseovka_finalni.csprojAssemblyReference.cache
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\obj\Debug\morseovka_finalni.csproj.CoreCompileInputs.cache
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\obj\Debug\morseovka_finalni.exe
-C:\Users\frydl\OneDrive\Plocha\UTB\Softwarová podpora\morseovka_finalni\morseovka_finalni\obj\Debug\morseovka_finalni.pdb
